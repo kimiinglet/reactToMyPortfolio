@@ -1,31 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-import Footer from "../src/components/footer"
-import Time from "../src/components/Time"
-import Header from "../src/components/header"
+import Footer from "./components/Footer"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Project from "../src/components/project"
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
- 
-      <Time />
-      <Footer />
-    </div>
-  );
+import Header from "./components/Header"
+import Home from './components/Home';
+
+
+class App extends Component {
+ state = { 
+   pet: "SusantheCat",
+   time: 1
+  }
+  
+  render() { 
+    return ( 
+      <div>
+        <Header />
+        <Home />
+        <Project />
+        <Footer />
+      </div>
+     );
+  }
 }
-
+ 
 export default App;

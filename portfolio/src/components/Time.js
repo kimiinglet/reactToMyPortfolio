@@ -10,13 +10,13 @@ function Time() {
 
     if(hours < 12) {
         timeOfDay = "morning"
-        styles.color = "#047262"
+        // styles.color = "#047262"
     } else if (hours >= 12 && hours < 17) {
         timeOfDay = "afternoon"
-        styles.color = "#062046"
+        // styles.color = "#062046"
     } else {
         timeOfDay = "night" 
-        styles.color = "#037189"
+        // styles.color = "#037189"
     }
 
 
