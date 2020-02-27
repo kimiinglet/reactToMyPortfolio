@@ -1,3 +1,30 @@
 .App {
   text-align: center;
 }
+
+#nav {
+  align-content: center;
+}
+
+#aboutMe {
+  margin: 10vh;
+
+}
+
+#img-col {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#kimi {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: 2vh;
+}
+
+#about {
+  padding: 2vh;
+
+}
+
