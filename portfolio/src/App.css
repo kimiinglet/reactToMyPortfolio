@@ -4,6 +4,10 @@
   align-content: center;
 }
 
+body {
+  background-image: url("../src/images/bgImg.png");
+}
+
 #time {
   color: rgb(100, 77, 77);
   text-align: center;

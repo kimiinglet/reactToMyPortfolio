@@ -1,8 +1,8 @@
 // imrc
 import React, { Component } from 'react'
-import Time from "../components/Time"
 import ProjectCard from "../components/ProjectCard"
 import {Row, Col} from "react-bootstrap"
+import employeeTracker from "../images/employeeTracker.png"
 
 // ccc
 class Home extends Component {
@@ -14,7 +14,10 @@ class Home extends Component {
                         <Col>
                         {/*WanderDog */}
                         <ProjectCard
-                        project={{img: "https://via.placeholder.com/150", name: "WanderDog", website: "https://kimiinglet.github.io/meanLeanFreakGoat/", github:"https://github.com/kimiinglet/meanLeanFreakGoat" }}
+                        img = {employeeTracker}
+                        name = "WanderDog"
+                        website = "https://kimiinglet.github.io/meanLeanFreakGoat/"
+                        github = "https://github.com/kimiinglet/meanLeanFreakGoat"
                         />
                         </Col>
                         <Col>
