@@ -3,10 +3,13 @@
 }
 
 #nav {
-  align-content: center;
+  background-color: rgb(87, 86, 86);
+  color: white;
+  font-weight: bold;
+  font-size: 36px
 }
 
-#aboutMe {
+#aboutME {
   margin: 10vh;
 
 }
@@ -14,6 +17,7 @@
 #img-col {
   margin-left: 5vh;
   margin-right: 5vh;
+  
 }
 
 #kimi {
@@ -21,10 +25,25 @@
   height: auto;
   border-radius: 15px;
   margin: 2vh;
+
 }
 
 #about {
+  width: 100%;
+  height: auto;
+  margin-top: 5vh;
+  margin-right: 2vh;
   padding: 2vh;
+  margin: 2vh;
+  border-radius: 2vh;
+  background-color: rgb(196, 179, 179);
+
+}
+h2{
+  text-align: center;
 
 }
 
+p {
+  font-size: 22px;
+}

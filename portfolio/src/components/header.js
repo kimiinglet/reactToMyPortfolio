@@ -4,24 +4,12 @@ import { Nav, Navbar, NavDropdown, Form, FormControl, Button } from "react-boots
 
 class Header extends Component {
    
-    state = {
-        oldTime: this.props.time,
-
-    }
-
-    componentDidMount(){
-        this.setState({
-            ...this.state,
-            newTime: 12
-        })
-    }
-
     render() {  
         
         return ( 
-            <div id="nav">
-                <Navbar bg="light" expand="lg">
-                    <Navbar.Brand href="www.linkedin.com/in/kimiinglet">Kimi Inglet</Navbar.Brand>
+            <div>
+                <Navbar id="nav" expand="lg" className="justify-content-center">
+                    <Navbar href="www.linkedin.com/in/kimiinglet">Kimi Inglet</Navbar>
                 </Navbar>
             </div>
          );
