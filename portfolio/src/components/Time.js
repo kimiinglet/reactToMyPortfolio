@@ -1,11 +1,13 @@
 import React from "react"
 
 function Time() {
+    
     const date = new Date()
     const hours = date.getHours()
     let timeOfDay
     const styles = {
-        fontSize: 20
+        fontSize: 30,
+        
     }
 
     if(hours < 12) {
@@ -21,7 +23,7 @@ function Time() {
 
 
     return (
-        <h1 style={styles}>Good {timeOfDay}!</h1>
+        <h1 id="time" style={styles}>Good {timeOfDay}!</h1>
     )
 }
 

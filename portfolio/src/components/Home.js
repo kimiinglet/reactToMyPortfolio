@@ -10,7 +10,6 @@ class Home extends Component {
     render() { 
         return ( 
             <div style={{"margin": "100px"}}>
-                    <Time />
                     <Row className="projectRows">
                         <Col>
                         {/*WanderDog */}

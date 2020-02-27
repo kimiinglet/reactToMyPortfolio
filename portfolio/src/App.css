@@ -1,17 +1,30 @@
+
 .App {
   text-align: center;
+  align-content: center;
+}
+
+#time {
+  color: rgb(100, 77, 77);
+  text-align: center;
+  margin-top: 2vh; 
 }
 
 #nav {
-  background-color: rgb(87, 86, 86);
-  color: white;
+  /* background-color: rgb(87, 86, 86); */
+  background-color: rgb(100, 77, 77);
+  color:rgb(187, 181, 181);
   font-weight: bold;
-  font-size: 36px
+  font-size: 40px
 }
 
 #aboutME {
   margin: 10vh;
 
+}
+
+.projectRows {
+  font-size: 13px;
 }
 
 #img-col {
@@ -36,14 +49,24 @@
   padding: 2vh;
   margin: 2vh;
   border-radius: 2vh;
-  background-color: rgb(196, 179, 179);
+  background-color: rgb(100, 77, 77);
 
 }
-h2{
-  text-align: center;
 
+h2 {
+  text-align: center;
 }
 
 p {
-  font-size: 22px;
+  width: 90%;
+  height: auto;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  text-indent: 50px;
+  font-size: 19px auto;
+  color:rgb(187, 181, 181);
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  
+
 }
