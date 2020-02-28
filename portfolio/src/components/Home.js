@@ -19,7 +19,7 @@ class Home extends Component {
                     <Row className="projectRows">
                         <Col>
                         {/*WanderDog */}
-                        <ProjectCard id="wander"
+                        <ProjectCard
                         img = {wanderdog} 
                         name = "WanderDog"
                         website = "https://kimiinglet.github.io/meanLeanFreakGoat/"

@@ -75,7 +75,8 @@ p {
 
 }
 
-#wander {
-  height: 1000px;
-  width: 100%
+.project-cards {
+  text-align: center;
+  
 }
+
