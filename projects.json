@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "WanderDog",
+        "website": "https://kimiinglet.github.io/meanLeanFreakGoat/",
+        "github": "hi"
+      },
+
+      {
+        "id": 2,
+        "name": "Todo list",
+        "website": "https://kimiinglet.github.io/todo_list/",
+        "github": "hi"
+
+
+      },
+
+      {
+        "id": 3,
+        "name": "Employee Tracker",
+        "website": "https://kimiinglet.github.io/meanLeanFreakGoat/",
+        "github": "hi"
+
+      },
+
+      {
+        "id": 4,
+        "name": "Note Taker",
+        "website": "https://kimiinglet.github.io/meanLeanFreakGoat/",
+        "github": "hi"
+
+      },
+
+      {
+        "id": 5,
+        "name": "Password Generator",
+        "website": "https://kimiinglet.github.io/meanLeanFreakGoat/",
+        "github": "hi"
+
+      }
+
+]
