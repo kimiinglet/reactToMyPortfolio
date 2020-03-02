@@ -17,7 +17,9 @@ function ProjectCard(props) {
       margin: '5px', 
       borderStyle: 'solid', 
       borderColor: 'gray',
-      textAlign: 'center'
+      textAlign: 'center',
+      border: '1px solid #ccc',
+      float: 'left'
       
       }}>
       <Card.Img variant="top" src={props.img} />
