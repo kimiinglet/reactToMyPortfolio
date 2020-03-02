@@ -24,47 +24,7 @@ class Home extends Component {
                         name = "WanderDog"
                         website = "https://kimiinglet.github.io/meanLeanFreakGoat/"
                         github = "https://github.com/kimiinglet/meanLeanFreakGoat"
-                        />
-                        </Col>
-                        <Col>
-                        {/* Note Taker */}
-                        <ProjectCard 
-                        img = {noteTaker}
-                        name ="Note Taker"
-                        website ="https://note-taker-boom.herokuapp.com/"
-                        github ="https://github.com/kimiinglet/note-taker.git"
-                        />
-                        </Col>
-                        </Row>
-                        <Row className="projectRows">
-                        <Col>
-                        {/* Quiz */}
-                        <ProjectCard 
-                        img = {quiz}
-                        name ="Quiz"
-                        website ="https://kimiinglet.github.io/Quiz_time/."
-                        github ="https://github.com/kimiinglet/Quiz_time.git"
-                        />
-                        </Col>
-                        <Col>
-                        {/* Password Generator */}
-                        <ProjectCard
-                        img = {passwordGen}
-                        name = "Password Generator"
-                        website = "https://kimiinglet.github.io/pswd_gen"
-                        github = "https://github.com/kimiinglet/pswd-gen.github.io"
-                        />
-                        </Col>
-
-                        </Row>
-                        <Row className="projectRows">
-                        <Col>
-                        {/* Workout Tracker */}
-                        <ProjectCard 
-                        img = {fitnessTracker}
-                        name = "Workout Tracker"
-                        website = "https://fitnes-trackher.herokuapp.com/"
-                        github = "https://github.com/kimiinglet/workout-tracker"
+                        text = "WanderDog blah blah"
                         />
                         </Col>
                         <Col>
@@ -74,6 +34,49 @@ class Home extends Component {
                         name = "React Employee Directory"
                         website ="https://react-to-employee-directory.herokuapp.com/"
                         github ="https://github.com/kimiinglet/reactEmployeeDirectory"
+                        text = "EmployeeTracker blah blah"
+                        />
+                        </Col>
+                        <Col>
+                        {/* Password Generator */}
+                        <ProjectCard
+                        img = {passwordGen}
+                        name = "Password Generator"
+                        website = "https://kimiinglet.github.io/pswd_gen"
+                        github = "https://github.com/kimiinglet/pswd-gen.github.io"
+                        text = "Password Generator blah blah"
+                        />
+                        </Col>
+                        </Row>
+                        <Row className="projectRows">
+                        <Col>
+                        {/* Note Taker */}
+                        <ProjectCard 
+                        img = {noteTaker}
+                        name ="Note Taker"
+                        website ="https://note-taker-boom.herokuapp.com/"
+                        github ="https://github.com/kimiinglet/note-taker.git"
+                        text = "Note Taker blah blah asgdasdgasdgasdgsadg"
+                        />
+                        </Col>
+                        <Col>
+                        {/* Quiz */}
+                        <ProjectCard 
+                        img = {quiz}
+                        name ="Quiz"
+                        website ="https://kimiinglet.github.io/Quiz_time/."
+                        github ="https://github.com/kimiinglet/Quiz_time.git"
+                        text = "Quiz blah blah"
+                        />
+                        </Col>
+                        <Col>
+                        {/* Workout Tracker */}
+                        <ProjectCard 
+                        img = {fitnessTracker}
+                        name = "Workout Tracker"
+                        website = "https://fitnes-trackher.herokuapp.com/"
+                        github = "https://github.com/kimiinglet/workout-tracker"
+                        text = "Workout tracker blah blah"
                         />
                         </Col>
                         </Row>
