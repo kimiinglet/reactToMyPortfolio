@@ -29,12 +29,13 @@ body {
 
 .projectRows {
   font-size: 13px;
+  margin: auto;
 }
 
 #img-col {
   margin-left: 5vh;
   margin-right: 5vh;
-  
+  min-width: 400px;
 }
 
 #kimi {
@@ -63,6 +64,8 @@ body {
   margin: 2vh;
   border-radius: 2vh;
   background-color: rgb(100, 77, 77);
+  min-width: 400px;
+
 
 }
 
@@ -86,6 +89,22 @@ p {
 
 .project-cards {
   text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 2vh;
   
 }
+
+/* style={{ 
+  width: '18rem',
+  height: '65vh',
+  margin: '5px', 
+  borderStyle: 'solid', 
+  borderColor: 'gray',
+  textAlign: 'center',
+  border: '1px solid #ccc',
+  float: 'left',
+  backgroundColor: 'rgb(100, 77, 77)'
+  
+  }} */
 

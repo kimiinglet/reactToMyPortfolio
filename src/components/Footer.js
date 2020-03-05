@@ -1,8 +1,9 @@
 import React from "react"
+import ContactPage from "../components/ContactPage"
 
 function Footer() {
     return (
-        <footer>These are just the beginning!</footer>
+        <ContactPage />
     )
 }
 

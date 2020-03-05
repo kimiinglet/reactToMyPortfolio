@@ -37,6 +37,8 @@ class Home extends Component {
                         text = "EmployeeTracker blah blah"
                         />
                         </Col>
+                        </Row>
+                        <Row className="projectRows">
                         <Col>
                         {/* Password Generator */}
                         <ProjectCard
@@ -47,8 +49,6 @@ class Home extends Component {
                         text = "Password Generator blah blah"
                         />
                         </Col>
-                        </Row>
-                        <Row className="projectRows">
                         <Col>
                         {/* Note Taker */}
                         <ProjectCard 
@@ -59,6 +59,8 @@ class Home extends Component {
                         text = "Note Taker blah blah asgdasdgasdgasdgsadg"
                         />
                         </Col>
+                        </Row>
+                        <Row className="projectRows">
                         <Col>
                         {/* Quiz */}
                         <ProjectCard 
