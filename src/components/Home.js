@@ -4,7 +4,7 @@ import ProjectCard from "../components/ProjectCard"
 import {Row, Col} from "react-bootstrap"
 //importing pictures from files:
 import employeeTracker from "../images/employeeTracker-min.png"
-import noteTaker from "../images/noteTaker-min.png"
+import noteTaker from "../images/Note-taker.png"
 import passwordGen from "../images/passwordGen-min.png"
 import wanderdog from "../images/wanderdog-min.png"
 import fitnessTracker from "../images/fitnessTracker-min.png"
@@ -56,7 +56,7 @@ class Home extends Component {
                         name ="Note Taker"
                         website ="https://note-taker-boom.herokuapp.com/"
                         github ="https://github.com/kimiinglet/note-taker.git"
-                        text = "Note Taker blah blah asgdasdgasdgasdgsadg"
+                        text = "An application that can be used to write, save, and delete notes. I used an express backend and save and retrieve note data from a JSON file."
                         />
                         </Col>
                         </Row>
