@@ -44,8 +44,8 @@ class Home extends Component {
                         <ProjectCard
                         img = {passwordGen}
                         name = "Password Generator"
-                        website = "https://kimiinglet.github.io/pswd_gen"
-                        github = "https://github.com/kimiinglet/pswd-gen.github.io"
+                        website = "https://kimiinglet.github.io/pswd_gen/"
+                        github = "https://github.com/kimiinglet/pswd_gen"
                         text = "Password Generator blah blah"
                         />
                         </Col>
