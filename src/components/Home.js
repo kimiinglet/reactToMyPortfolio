@@ -5,7 +5,7 @@ import {Row, Col} from "react-bootstrap"
 //importing pictures from files:
 import employeeTracker from "../images/employeeTracker-min.png"
 import noteTaker from "../images/Note-taker.png"
-import passwordGen from "../images/passwordGen-min.png"
+import passwordGen from "../images/passwordGen.png"
 import wanderdog from "../images/wanderdog-min.png"
 import fitnessTracker from "../images/fitnessTracker.png"
 import quiz from "../images/quiz.png"
@@ -46,7 +46,7 @@ class Home extends Component {
                         name = "Password Generator"
                         website = "https://kimiinglet.github.io/pswd_gen/"
                         github = "https://github.com/kimiinglet/pswd_gen"
-                        text = "Password Generator blah blah"
+                        text = "An application that can generate strong passwords quickly and effortlessly saves employees time and ensures secure access to data."
                         />
                         </Col>
                         <Col>
