@@ -7,7 +7,7 @@ import employeeTracker from "../images/employeeTracker-min.png"
 import noteTaker from "../images/Note-taker.png"
 import passwordGen from "../images/passwordGen-min.png"
 import wanderdog from "../images/wanderdog-min.png"
-import fitnessTracker from "../images/fitnessTracker-min.png"
+import fitnessTracker from "../images/fitnessTracker.png"
 import quiz from "../images/quiz.png"
 
 // ccc
@@ -78,7 +78,7 @@ class Home extends Component {
                         name = "Workout Tracker"
                         website = "https://fitnes-trackher.herokuapp.com/"
                         github = "https://github.com/kimiinglet/workout-tracker"
-                        text = "Workout tracker blah blah"
+                        text = "This application you're able to view create and track daily workouts."
                         />
                         </Col>
                         </Row>
