@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import ProjectCard from "../components/ProjectCard"
 import {Row, Col} from "react-bootstrap"
+
 //importing pictures from files:
 import employeeTracker from "../images/employeeTracker-min.png"
 import noteTaker from "../images/Note-taker.png"
@@ -11,6 +12,9 @@ import fitnessTracker from "../images/fitnessTracker.png"
 import quiz from "../images/quiz.png"
 import employeeD from "../images/employeeD.png"
 import dayPlanner from "../images/dayPlanner.png"
+import BookWyrm from "../images/BookWyrm.png"
+import developer from "../images/developer.png"
+
 
 // ccc
 class Home extends Component {
@@ -20,17 +24,17 @@ class Home extends Component {
             <div style={{"margin": "100px"}}>
                     <Row className="projectRows">
                         <Col>
-                        {/*WanderDog */}
+                        {/*BookWyrm */}
                         <ProjectCard
-                        img = {wanderdog} 
-                        name = "WanderDog"
-                        website = "https://kimiinglet.github.io/meanLeanFreakGoat/"
-                        github = "https://github.com/kimiinglet/meanLeanFreakGoat"
-                        text = "WanderDog blah blah"
+                        img = {BookWyrm} 
+                        name = "Book Wyrm"
+                        website = "https://book-wyrm.herokuapp.com/"
+                        github = "https://github.com/kimiinglet/book-wyrm"
+                        text = "As a person who enjoys reading, I want to keep a running list of books, so that I always have something to read. "
                         />
                         </Col>
                         <Col>
-                        {/* Employee Directory */}
+                        {/* Weather Dashboard */}
                         <ProjectCard 
                         img = {employeeTracker}
                         name = "Weather Dashboard"
@@ -99,7 +103,7 @@ class Home extends Component {
                         {/* Employee Directory */}
                         <ProjectCard 
                         img = {employeeTracker}
-                        name = "React Employee Directory"
+                        name = "Node Employee Directory"
                         website ="https://react-to-employee-directory.herokuapp.com/"
                         github ="https://github.com/kimiinglet/reactEmployeeDirectory"
                         text = "EmployeeTracker blah blah"
@@ -108,17 +112,17 @@ class Home extends Component {
                         </Row>
                         <Row className="projectRows">
                         <Col>
-                        {/*employeeD */}
+                        {/*WanderDog */}
                         <ProjectCard
-                        img = {employeeD} 
-                        name = "Reverse Engineering"
-                        website = "https://react-to-employee-directory.herokuapp.com/"
-                        github = "https://github.com/kimiinglet/reactEmployeeDirectory"
-                        text = "With React i have created an employee directory where you can add, delete, edit and sort all with the table directory."
+                        img = {wanderdog} 
+                        name = "WanderDog"
+                        website = "https://kimiinglet.github.io/meanLeanFreakGoat/"
+                        github = "https://github.com/kimiinglet/meanLeanFreakGoat"
+                        text = "WanderDog blah blah"
                         />
                         </Col>
                         <Col>
-                        {/* Employee Directory */}
+                        {/* Day Planner */}
                         <ProjectCard 
                         img = {dayPlanner}
                         name = "Day Planner"
@@ -128,6 +132,29 @@ class Home extends Component {
                         />
                         </Col>
                         </Row>
+                        <Row className="projectRows">
+                        <Col>
+                        {/*Developer Profile Generator*/}
+                        <ProjectCard
+                        img = {developer} 
+                        name = "Developer Profile Generator"
+                        website = "https://user-images.githubusercontent.com/56975796/72659024-e04c9800-397e-11ea-9b5d-562473b6103a.gif" 
+                        github = "https://github.com/kimiinglet/profile_gen"
+                        text = "This is a commond-line application that dynamically generates a PDF profile from a GitHub username. The user will be prompted for a favorite color, that will be used as the background."
+                        />
+                        </Col>
+                        <Col>
+                        {/* Employee Directory */}
+                        <ProjectCard 
+                        img = {employeeTracker}
+                        name = "New"
+                        website ="https://react-to-employee-directory.herokuapp.com/"
+                        github ="https://github.com/kimiinglet/reactEmployeeDirectory"
+                        text = "EmployeeTracker blah blah"
+                        />
+                        </Col>
+                        </Row>
+
                 </div>
             
          );
