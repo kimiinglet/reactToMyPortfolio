@@ -9,6 +9,7 @@ import passwordGen from "../images/passwordGen.png"
 import wanderdog from "../images/wanderdog-min.png"
 import fitnessTracker from "../images/fitnessTracker.png"
 import quiz from "../images/quiz.png"
+import employeeD from "../images/employeeD.png"
 
 // ccc
 class Home extends Component {
@@ -82,7 +83,28 @@ class Home extends Component {
                         />
                         </Col>
                         </Row>
-
+                        <Row className="projectRows">
+                        <Col>
+                        {/*employeeD */}
+                        <ProjectCard
+                        img = {employeeD} 
+                        name = "Employee Directory"
+                        website = "https://react-to-employee-directory.herokuapp.com/"
+                        github = "https://github.com/kimiinglet/reactEmployeeDirectory"
+                        text = "With React i have created an employee directory where you can add, delete, edit and sort all with the table directory."
+                        />
+                        </Col>
+                        <Col>
+                        {/* Employee Directory */}
+                        <ProjectCard 
+                        img = {employeeTracker}
+                        name = "React Employee Directory"
+                        website ="https://react-to-employee-directory.herokuapp.com/"
+                        github ="https://github.com/kimiinglet/reactEmployeeDirectory"
+                        text = "EmployeeTracker blah blah"
+                        />
+                        </Col>
+                        </Row>
 
                 </div>
             
