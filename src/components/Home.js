@@ -68,7 +68,7 @@ class Home extends Component {
                         name ="Quiz"
                         website ="https://kimiinglet.github.io/Quiz_time/."
                         github ="https://github.com/kimiinglet/Quiz_time.git"
-                        text = "Quiz blah blah"
+                        text = "I've created a coding quiz where you are timed to answer 5 questions, and able to save your highscore to local storage."
                         />
                         </Col>
                         <Col>
