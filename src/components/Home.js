@@ -14,6 +14,7 @@ import employeeD from "../images/employeeD.png"
 import dayPlanner from "../images/dayPlanner.png"
 import BookWyrm from "../images/BookWyrm.png"
 import developer from "../images/developer.png"
+import reverse from "../images/reverse.png"
 
 
 // ccc
@@ -103,10 +104,10 @@ class Home extends Component {
                         {/* Employee Directory */}
                         <ProjectCard 
                         img = {employeeTracker}
-                        name = "Node Employee Directory"
-                        website ="https://react-to-employee-directory.herokuapp.com/"
-                        github ="https://github.com/kimiinglet/reactEmployeeDirectory"
-                        text = "EmployeeTracker blah blah"
+                        name = "Employee Tracker"
+                        website ="https://media.giphy.com/media/hXOXhaOFtJSvCd9Pgw/giphy.gif"
+                        github ="https://github.com/kimiinglet/employeeTracker"
+                        text = "This command-line application allows the user to add, view, and delete; departments, roles, and employees."
                         />
                         </Col>
                         </Row>
@@ -118,7 +119,7 @@ class Home extends Component {
                         name = "WanderDog"
                         website = "https://kimiinglet.github.io/meanLeanFreakGoat/"
                         github = "https://github.com/kimiinglet/meanLeanFreakGoat"
-                        text = "WanderDog blah blah"
+                        text = "This application draws from public information to obtain free trails, camp grounds, and parks for your 4-legged pooch! Also provides weather data for your location!"
                         />
                         </Col>
                         <Col>
@@ -144,13 +145,13 @@ class Home extends Component {
                         />
                         </Col>
                         <Col>
-                        {/* Employee Directory */}
+                        {/* Reverse Engineering Code */}
                         <ProjectCard 
-                        img = {employeeTracker}
-                        name = "New"
-                        website ="https://react-to-employee-directory.herokuapp.com/"
-                        github ="https://github.com/kimiinglet/reactEmployeeDirectory"
-                        text = "EmployeeTracker blah blah"
+                        img = {reverse}
+                        name = "Reverse Engineering Code"
+                        website ="https://docs.google.com/document/d/11C6WX7NVqVgJRkys9sev9YI5dQhBHFBEm6d3r1dJXA0/edit?usp=sharing"
+                        github ="https://github.com/kimiinglet/"
+                        text = "I have wrote a starter code for a tutorial for explaining a Full-Stack boiler plate. This is a walk-through of the codebase"
                         />
                         </Col>
                         </Row>
