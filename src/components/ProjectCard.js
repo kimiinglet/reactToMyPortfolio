@@ -6,7 +6,7 @@ function ProjectCard(props) {
     <div className="project-cards">
       <Card >
         <Card.Img id="imgCard" variant="top" src={props.img} />
-        <Card.Body>
+        <Card.Body >
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>{props.text}
           </Card.Text>
