@@ -36,13 +36,22 @@ class Home extends Component {
                         </Col>
                         <Col>
                         {/* Weather Dashboard */}
-                        <ProjectCard 
+                        {/* <ProjectCard 
                         img = {employeeTracker}
                         name = "Weather Dashboard"
                         website ="https://react-to-employee-directory.herokuapp.com/"
                         github ="https://github.com/kimiinglet/reactEmployeeDirectory"
                         text = "EmployeeTracker blah blah"
+                        /> */}
+                        {/* Reverse Engineering Code */}
+                        <ProjectCard 
+                        img = {reverse}
+                        name = "Reverse Engineering Code"
+                        website ="https://docs.google.com/document/d/11C6WX7NVqVgJRkys9sev9YI5dQhBHFBEm6d3r1dJXA0/edit?usp=sharing"
+                        github ="https://github.com/kimiinglet/"
+                        text = "I have wrote a starter code for a tutorial for explaining a Full-Stack boiler plate. This is a walk-through of the codebase"
                         />
+
                         </Col>
                         </Row>
                         <Row className="projectRows">
@@ -145,14 +154,6 @@ class Home extends Component {
                         />
                         </Col>
                         <Col>
-                        {/* Reverse Engineering Code */}
-                        <ProjectCard 
-                        img = {reverse}
-                        name = "Reverse Engineering Code"
-                        website ="https://docs.google.com/document/d/11C6WX7NVqVgJRkys9sev9YI5dQhBHFBEm6d3r1dJXA0/edit?usp=sharing"
-                        github ="https://github.com/kimiinglet/"
-                        text = "I have wrote a starter code for a tutorial for explaining a Full-Stack boiler plate. This is a walk-through of the codebase"
-                        />
                         </Col>
                         </Row>
 
