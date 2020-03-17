@@ -15,6 +15,7 @@ import dayPlanner from "../images/dayPlanner.png"
 import BookWyrm from "../images/BookWyrm.png"
 import developer from "../images/developer.png"
 import reverse from "../images/reverse.png"
+import weather from "../images/weather.png"
 
 
 // ccc
@@ -36,13 +37,13 @@ class Home extends Component {
                         </Col>
                         <Col>
                         {/* Weather Dashboard */}
-                        {/* <ProjectCard 
-                        img = {employeeTracker}
+                        <ProjectCard 
+                        img = {weather}
                         name = "Weather Dashboard"
-                        website ="https://react-to-employee-directory.herokuapp.com/"
-                        github ="https://github.com/kimiinglet/reactEmployeeDirectory"
-                        text = "EmployeeTracker blah blah"
-                        /> */}
+                        website ="https://kimiinglet.github.io/weatherDashboard/"
+                        github ="https://github.com/kimiinglet/weatherDashboard"
+                        text = "Weather Dashboard with UIKit"
+                        />
                         {/* Reverse Engineering Code */}
                         <ProjectCard 
                         img = {reverse}
