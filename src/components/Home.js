@@ -42,17 +42,8 @@ class Home extends Component {
                         name = "Weather Dashboard"
                         website ="https://kimiinglet.github.io/weatherDashboard/"
                         github ="https://github.com/kimiinglet/weatherDashboard"
-                        text = "Weather Dashboard with UIKit"
+                        text = "Weather Dashboard with UIKit, Moment.js, APIs"
                         />
-                        {/* Reverse Engineering Code */}
-                        <ProjectCard 
-                        img = {reverse}
-                        name = "Reverse Engineering Code"
-                        website ="https://docs.google.com/document/d/11C6WX7NVqVgJRkys9sev9YI5dQhBHFBEm6d3r1dJXA0/edit?usp=sharing"
-                        github ="https://github.com/kimiinglet/"
-                        text = "I have wrote a starter code for a tutorial for explaining a Full-Stack boiler plate. This is a walk-through of the codebase"
-                        />
-
                         </Col>
                         </Row>
                         <Row className="projectRows">
@@ -155,10 +146,17 @@ class Home extends Component {
                         />
                         </Col>
                         <Col>
+                        {/* Reverse Engineering Code */}
+                        <ProjectCard 
+                        img = {reverse}
+                        name = "Reverse Engineering Code"
+                        website ="https://docs.google.com/document/d/11C6WX7NVqVgJRkys9sev9YI5dQhBHFBEm6d3r1dJXA0/edit?usp=sharing"
+                        github ="https://github.com/kimiinglet/"
+                        text = "I have wrote a starter code for a tutorial for explaining a Full-Stack boiler plate. This is a walk-through of the codebase"
+                        />
                         </Col>
                         </Row>
-
-                </div>
+            </div>
             
          );
     }

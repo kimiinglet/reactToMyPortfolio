@@ -1,10 +1,12 @@
 import React from "react"
-import ContactPage from "../components/ContactPage"
+// import ContactPage from "../components/ContactPage"
 
 function Footer() {
     return (
-        <ContactPage />
+       <div> my footer </div> 
     )
+    //     <ContactPage />
+    // )
 }
 
 export default Footer
