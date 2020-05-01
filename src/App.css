@@ -14,7 +14,9 @@ body {
   margin-top: 2vh; 
 }
 
-
+#copyright {
+  text-align: center;
+}
 
 #nav {
   /* background-color: rgb(87, 86, 86); */
@@ -26,7 +28,6 @@ body {
 
 #aboutME {
   margin: 10vh;
-
 }
 
 .projectRows {
@@ -45,17 +46,17 @@ body {
   width: 100%;
   height: auto;
   border-radius: 15px;
-  margin: 2vh;
+  margin: 2%;
 
 }
 
 #imgCard {
   width: 75%;
-  height: 300px;
+  height: auto;
   margin: auto;
   margin-top: 5%;
-  min-width: 200px;
-  max-height: 300px;
+  min-width: auto;
+  max-height: auto;
 }
 
 
@@ -70,12 +71,14 @@ body {
   border-radius: 2vh;
   background-color: rgb(100, 77, 77);
   min-width: 400px;
+  min-width: 200px;
 
 
 }
 
 h2 {
   text-align: center;
+
 }
 
 p {
@@ -101,6 +104,31 @@ p {
   
 }
 
+/* Contact Form CSS */
+#CFcontainer {
+  background-color: rgb(100, 77, 77);
+  color:rgb(187, 181, 181);
+  text-align: center;
+  box-sizing: border-box;
+  margin: 10px;
+} 
+
+input[type=text], select, textarea {
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+  
+}
+
 /* style={{ 
   width: '18rem',
   height: '65vh',
@@ -113,4 +141,23 @@ p {
   backgroundColor: 'rgb(100, 77, 77)'
   
   }} */
+/* icons */
+
+.icon {
+  margin: auto;
+  margin-left: 50px;
+}
+
+/* Contact Form */
+/* #form {
+ text-align: center;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+} */
+
+
 

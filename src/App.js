@@ -6,7 +6,6 @@ import Header from "./components/Header"
 import Home from './components/Home';
 import AboutMe from "./components/AboutMe";
 import Time from "./components/Time";
-import Divider from "./components/Divider"
 // import bgImg from "../src/images/bgImg.png";
 
 
@@ -21,7 +20,6 @@ class App extends Component {
         <Header />
         <Time />
         <AboutMe />
-        <Divider />
         <Home />
         <Footer />
         
