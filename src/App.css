@@ -50,6 +50,21 @@ body {
 
 }
 
+.skills, .learning {
+  width: 90%;
+  height: auto;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  text-indent: 50px;
+  margin-top: 2vh;
+  font-size: 19px auto;
+  color:rgb(187, 181, 181);
+  letter-spacing: 2px;
+  word-spacing: 5px;
+
+}
+
+
 #imgCard {
   width: 75%;
   height: auto;
@@ -73,7 +88,10 @@ body {
   min-width: 400px;
   min-width: 200px;
 
+}
 
+.learning {
+  margin-top: 4vh;
 }
 
 h2 {
