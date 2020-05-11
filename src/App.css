@@ -55,7 +55,6 @@ body {
   height: auto;
   margin-left: 2vh;
   margin-right: 2vh;
-  text-indent: 50px;
   margin-top: 2vh;
   font-size: 19px auto;
   color:rgb(187, 181, 181);
@@ -109,8 +108,6 @@ p {
   color:rgb(187, 181, 181);
   letter-spacing: 2px;
   word-spacing: 5px;
-  
-
 }
 
 .project-cards {
@@ -119,63 +116,14 @@ p {
   height: auto;
   margin: 2vh;
   /* background-color: rgb(100, 77, 77); */
-  
 }
 
-/* Contact Form CSS */
-#CFcontainer {
-  background-color: rgb(100, 77, 77);
-  color:rgb(187, 181, 181);
-  text-align: center;
-  box-sizing: border-box;
-  margin: 10px;
-} 
-
-input[type=text], select, textarea {
-  text-align: center;
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-h3 {
-  text-align: center;
-  padding: 10px;
-  
-}
-
-/* style={{ 
-  width: '18rem',
-  height: '65vh',
-  margin: '5px', 
-  borderStyle: 'solid', 
-  borderColor: 'gray',
-  textAlign: 'center',
-  border: '1px solid #ccc',
-  float: 'left',
-  backgroundColor: 'rgb(100, 77, 77)'
-  
-  }} */
 /* icons */
 
 .icon {
   margin: auto;
-  margin-left: 50px;
 }
 
-/* Contact Form */
-/* #form {
- text-align: center;
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-} */
 
 
 
