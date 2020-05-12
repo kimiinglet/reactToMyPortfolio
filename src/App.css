@@ -8,6 +8,24 @@ body {
   background-image: url("../src/images/bgImg.png");
 }
 
+.card {
+  position: relative;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  /* background-clip: border-box; */
+  /* border: 1px solid rgba(0,0,0,.125); */
+  border-radius: .25rem;
+  text-align: center;
+  width: 80%;
+  height: auto;
+  margin: 2vh;
+  background-color: rgb(100, 77, 77);
+    
+}
+
 #time {
   color: rgb(100, 77, 77);
   text-align: center;
@@ -33,7 +51,6 @@ body {
 .projectRows {
   font-size: 13px;
   margin: auto;
-  
 }
 
 #img-col {
@@ -69,8 +86,7 @@ body {
   height: auto;
   margin: auto;
   margin-top: 5%;
-  min-width: auto;
-  max-height: auto;
+
 }
 
 
@@ -104,26 +120,18 @@ p {
   margin-left: 2vh;
   margin-right: 2vh;
   text-indent: 50px;
-  font-size: 19px auto;
+  font-size: 16px auto;
   color:rgb(187, 181, 181);
   letter-spacing: 2px;
   word-spacing: 5px;
 }
 
-.project-cards {
-  text-align: center;
-  width: 80%;
-  height: auto;
-  margin: 2vh;
-  /* background-color: rgb(100, 77, 77); */
-}
 
 /* icons */
 
 .icon {
   margin: auto;
 }
-
 
 
 
