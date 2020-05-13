@@ -51,6 +51,7 @@ body {
 .projectRows {
   font-size: 13px;
   margin: auto;
+  height: 80%;
 }
 
 #img-col {
@@ -80,6 +81,10 @@ body {
 
 }
 
+#cardCard {
+  background-color: rgb(100, 77, 77);
+  height: auto;
+}
 
 #imgCard {
   width: 75%;
@@ -132,6 +137,5 @@ p {
 .icon {
   margin: auto;
 }
-
 
 
