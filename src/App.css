@@ -46,6 +46,7 @@ body {
 
 #aboutME {
   margin: 10vh;
+  
 }
 
 .projectRows {
@@ -78,7 +79,6 @@ body {
   color:rgb(187, 181, 181);
   letter-spacing: 2px;
   word-spacing: 5px;
-
 }
 
 #cardCard {
@@ -87,13 +87,11 @@ body {
 }
 
 #imgCard {
-  width: 75%;
+  width: 80%;
   height: auto;
   margin: auto;
   margin-top: 5%;
-
 }
-
 
 
 #about {
@@ -116,6 +114,9 @@ body {
 
 h2 {
   text-align: center;
+  color: rgb(187,181,181);
+  padding: 15px;
+
 
 }
 

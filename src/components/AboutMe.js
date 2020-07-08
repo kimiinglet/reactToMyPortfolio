@@ -13,8 +13,7 @@ function AboutMe() {
                 <Col>
                 <div id="about">
                 <h2>About Me</h2>
-                <p>Hi, Welcome, I’m Kimi. During this pandemic it has been hard for me to go out and network, so i'm going to try and do my best with letting you know who I am.</p>
-                <p>I am a very ambitious and passionate person who loves to learn new things. I enjoy a good full stack application as well as playing around with front-end work.  I have a heart of gold and will do anything for anyone to put a smile on their face. I’m very facetious and will pun on everything I see; it’s a hidden talent that I only show off sometimes.</p>
+                <p>Hi, Welcome, I’m Kimi. I am a very ambitious and passionate person who loves to build a full stack application as well as playing around with front-end work.  I have a heart of gold and will do anything for anyone to put a smile on their face. I’m very facetious and will pun on everything I see; it’s a hidden talent that I only show off sometimes.</p>
                 <a class="icon" href="https://www.linkedin.com/in/kimiinglet/" alt="linkedIn"><img src="https://img.icons8.com/carbon-copy/100/000000/linkedin.png" alt="linkedInIcon"/></a>
                 <a class="icon" href="https://github.com/kimiinglet" alt="github"><img src="https://img.icons8.com/wired/64/000000/github.png" alt="githubIcon"/></a>
                 <a class="icon" href="https://twitter.com/IngletKimi" alt="twitter"><img src="https://img.icons8.com/carbon-copy/100/000000/twitter.png" alt="twitterIcon"/></a>
