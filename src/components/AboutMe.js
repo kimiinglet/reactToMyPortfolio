@@ -19,8 +19,8 @@ function AboutMe() {
                 <a class="icon" href="https://twitter.com/IngletKimi" alt="twitter"><img src="https://img.icons8.com/carbon-copy/100/000000/twitter.png" alt="twitterIcon"/></a>
                 <br />
                 <div class="skills">Skills: HTML, Javascript, React, JQuery, AJAX, APIs, Node.js, MongoDB, Express, MySQL</div>
-                <div class="skills">Front-end: CSS, UIKit, Tailwind, Sass</div>
-                <div class="skills">Learning: Python and PHP.</div>
+                <div class="skills">Front-end: CSS, UIKit, Tailwind</div>
+                <div class="skills">Learning: AWS</div>
                 </div>
                 </Col>
             </Row>
